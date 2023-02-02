@@ -1,0 +1,24 @@
+{
+    "category-v2.single.toJob": "pdi",
+    "git.link": "https://github.com/echoedinvoker/pdi/blob/master/2-pdi-install-n-setup/5-ui/memo.md",
+    "course": "Pentaho for ETL & Data Integration Masterclass 2023 - PDI 9",
+    "chapter": "2. Pentaho Data Integration (PDI) Installation and Setup",
+    "section": "5. Opening Spoon - The Graphical UI",
+    "video.length": 7,
+    "time.comsuming": 35,
+    "lecturer.name": "Start-Tech Academy",
+    "register.time": "2023-02-02T11:49:58Z",
+    "tag": [
+      "etl",
+      "pdi",
+      "kettle",
+      "open",
+      "ui",
+      "type",
+      "project",
+      "job",
+      "transformation",
+    ],
+    "video.link": "https://www.udemy.com/course/pentaho-for-etl-data-integration-masterclass/learn/lecture/21219566#overview",
+    "description": "A brief introduction to the user interface of PDI and what each of the two projects does."
+  }
