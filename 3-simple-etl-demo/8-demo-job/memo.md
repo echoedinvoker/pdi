@@ -49,6 +49,7 @@
 ![Alt save kjb](pic/21.jpg)
 
 ![Alt LOG](pic/22.jpg)
+- We don't do anything about 'Mail' at this moment.
 
 ![Alt result tree](pic/23.jpg)
 
