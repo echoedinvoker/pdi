@@ -1,5 +1,7 @@
 ## **Connect All Actions**
 
+> In this chapter we only do the Transformation process, so only 2~4 steps of the previous chapter are covered.
+
 ![Alt create transform](pic/01.jpg)
 
 ![Alt drag  CSV file input](pic/02.jpg)
