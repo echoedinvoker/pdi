@@ -8,7 +8,7 @@
 
 - good ETL tool such as Pentaho allow you extract much as type of data source as possible.
 
-## **In Our follower case, Three datasets**
+## **In Our follower case, Three datasets will be used to practice**
 
 ![Alt three datasets](pic/02.jpg)
 
