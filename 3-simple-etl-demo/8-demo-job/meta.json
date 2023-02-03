@@ -1,18 +1,18 @@
 {
     "category-v2.single.toJob": "pdi",
-    "git.link": "",
+    "git.link": "https://github.com/echoedinvoker/pdi/blob/master/3-simple-etl-demo/8-demo-job/memo.md",
     "course": "Pentaho for ETL & Data Integration Masterclass 2023 - PDI 9",
     "chapter": "3. A Simple ETL Demonstration",
-    "section": "",
+    "section": "8. Demonstration of a PDI Job",
     "video.length": ,
     "time.comsuming": ,
     "lecturer.name.first": "Start-Tech Academy",
-    "register.time": "",
+    "register.time": "2023-02-02T22:41:54Z",
     "tag": [
       "etl",
       "pdi",
-      "kettle",
+      "kettle","filename","delete","mail","job","abort","sales","exist"
     ],
-    "video.link": "",
-    "description": ""
+    "video.link": "https://www.udemy.com/course/pentaho-for-etl-data-integration-masterclass/learn/lecture/21219590#overview",
+    "description": "Finish the salesperson case, this lecture is mainly to implement the part of Job."
   }
