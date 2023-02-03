@@ -29,3 +29,5 @@
 ## **ETL process**
 
 ![Alt ETL](pic/06.jpg)
+
+- static means data won't be changed rapidly.
