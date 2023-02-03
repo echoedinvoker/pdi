@@ -1,18 +1,18 @@
 {
     "category-v2.single.toJob": "pdi",
-    "git.link": "https://github.com/echoedinvoker/pdi/blob/master/4-basic-concept/11-Inmon-vs-Kimball/memo.md",
+    "git.link": "https://github.com/echoedinvoker/pdi/blob/master/4-basic-concept/12-etl-n-elt/memo.md",
     "course": "Pentaho for ETL & Data Integration Masterclass 2023 - PDI 9",
     "chapter": "4. Basic concepts - Theory for fundational understanding",
-    "section": "11. Inmon vs Kimball Architecture",
-    "video.length": 4,
-    "time.comsuming": 17,
+    "section": "12. ETL vs ELT",
+    "video.length": 3,
+    "time.comsuming": 26,
     "lecturer.name.first": "Start-Tech Academy",
-    "register.time": "2023-02-03T12:25:16Z",
+    "register.time": "",
     "tag": [
       "etl",
       "pdi",
-      "kettle","inmon","kimball","database","organization","department","concept"
+      "kettle","compare","etl","elt","available","when","which","staging","tool"
     ],
-    "video.link": "https://www.udemy.com/course/pentaho-for-etl-data-integration-masterclass/learn/lecture/21538300#content",
-    "description": "Explain the two ways organizations use database architecture"
+    "video.link": "https://www.udemy.com/course/pentaho-for-etl-data-integration-masterclass/learn/lecture/21538304#content",
+    "description": "Compare the difference between ETL and ELT and the suitable situation."
   }
