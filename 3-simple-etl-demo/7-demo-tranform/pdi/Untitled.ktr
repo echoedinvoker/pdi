@@ -483,7 +483,7 @@
         <currency/>
         <decimal/>
         <group/>
-        <nullif>http://127.0.0.1:3300/test</nullif>
+        <nullif>http://127.0.0.1:3600/test</nullif>
         <length>-1</length>
         <precision>-1</precision>
         <set_empty_string>N</set_empty_string>
@@ -555,7 +555,7 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>320</xloc>
+      <xloc>304</xloc>
       <yloc>192</yloc>
       <draw>Y</draw>
     </GUI>
@@ -574,7 +574,6 @@
     <fields>
       <field>
         <name>result-json</name>
-        <rename/>
       </field>
       <select_unspecified>N</select_unspecified>
     </fields>
@@ -617,7 +616,7 @@
     <fileNameField/>
     <create_parent_folder>Y</create_parent_folder>
     <file>
-      <name>/home/mattchang/Documents/self-taught/pdi/test/result_json</name>
+      <name>/home/mattchang/Documents/self-taught/pdi/test/result_json.json</name>
       <servlet_output>N</servlet_output>
       <do_not_open_new_file_init>N</do_not_open_new_file_init>
       <extention>json</extention>
