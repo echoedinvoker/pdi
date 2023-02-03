@@ -1,0 +1,18 @@
+{
+    "category-v2.single.toJob": "pdi",
+    "git.link": "https://github.com/echoedinvoker/pdi/blob/master/4-basic-concept/10-dw-ops-dm/memo.md",
+    "course": "Pentaho for ETL & Data Integration Masterclass 2023 - PDI 9",
+    "chapter": "4. Basic concepts - Theory for foundational understanding",
+    "section": "10. Data Warehouse, Ops Database and Data mart",
+    "video.length": 5,
+    "time.comsuming": ,
+    "lecturer.name.first": "Start-Tech Academy",
+    "register.time": "2023-02-03T11:51:21Z",
+    "tag": [
+      "etl",
+      "pdi",
+      "kettle","warehouse","optional","database","mart","concept"
+    ],
+    "video.link": "https://www.udemy.com/course/pentaho-for-etl-data-integration-masterclass/learn/lecture/21538294#content",
+    "description": "Explain the types of databases commonly used in organizations"
+  }
