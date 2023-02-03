@@ -1,3 +1,5 @@
+# **_Data Warehouse, Ops Database and Data mart_**
+
 - In an organization, data is usually stored in two types of databases
 
   - Operational database (OLTP)
