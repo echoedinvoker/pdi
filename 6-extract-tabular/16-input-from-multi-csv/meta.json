@@ -1,18 +1,18 @@
 {
     "category-v2.single.toJob": "pdi",
-    "git.link": "",
+    "git.link": "https://github.com/echoedinvoker/pdi/blob/master/6-extract-tabular/15-input-from-txt/memo.md",
     "course": "Pentaho for ETL & Data Integration Masterclass 2023 - PDI 9",
     "chapter": "6. DATA EXTRACTION: Extracting tabular data",
-    "section": "",
-    "video.length": ,
-    "time.comsuming": ,
+    "section": "16. Input from multiple CSV files at the same time",
+    "video.length": 16,
+    "time.comsuming": 80,
     "lecturer.name.first": "Start-Tech Academy",
-    "register.time": "",
+    "register.time": "2023-02-04T07:39:52Z",
     "tag": [
       "etl",
       "pdi",
-      "kettle",
+      "kettle","multiple","csv","input","extract","tab","text","subset"
     ],
-    "video.link": "",
-    "description": ""
+    "video.link": "https://www.udemy.com/course/pentaho-for-etl-data-integration-masterclass/learn/lecture/21220802#content",
+    "description": "Explain how to extract multiple CSV file (merge)."
   }
