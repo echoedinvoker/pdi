@@ -12,6 +12,8 @@
 
 ![Alt login](pic/03.jpg)
 
+- If you don't need to connect from other laptops, you don't need to install the web version if you only use it on your local computer, the desktop app is enough.
+
 ### _desktop_
 
 ![Alt app tool](pic/04.jpg)
