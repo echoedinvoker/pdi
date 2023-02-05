@@ -8,4 +8,6 @@
 
 ![Alt content tab: compression](pic/03.jpg)
 
+- There are other compression formats to choose from in Compression, even \*.gz is included.
+
 ![Alt fields setting and preview](pic/04.jpg)
