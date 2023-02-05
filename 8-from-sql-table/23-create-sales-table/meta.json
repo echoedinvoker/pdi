@@ -1,16 +1,16 @@
 {
     "category-v2.single.toJob": "pdi",
-    "git.link": "",
+    "git.link": "https://github.com/echoedinvoker/pdi/blob/master/8-from-sql-table/23-create-sales-table/memo.md",
     "course": "Pentaho for ETL & Data Integration Masterclass 2023 - PDI 9",
     "chapter": "8. Extracting from an SQL table",
-    "section": "",
-    "video.length": ,
-    "time.comsuming": ,
+    "section": "23. Creating Sales table in SQL",
+    "video.length": 9,
+    "time.comsuming": 55,
     "lecturer.name.first": "Start-Tech Academy",
-    "register.time": "",
+    "register.time": "2023-02-05T07:21:48Z",
     "tag": [
-      "etl","pdi","kettle","extract","input","sql"
+      "etl","pdi","kettle","extract","input","sql","script","create","select"
     ],
-    "video.link": "",
-    "description": ""
+    "video.link": "https://www.udemy.com/course/pentaho-for-etl-data-integration-masterclass/learn/lecture/21191742#content",
+    "description": "Explain how to create a PostgreSQL table and transfer data from a CSV file to it."
   }
