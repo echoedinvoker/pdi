@@ -2,14 +2,14 @@
     "category-v2.single.toJob": "pdi",
     "git.link": "",
     "course": "Pentaho for ETL & Data Integration Masterclass 2023 - PDI 9",
-    "chapter": "8. Extracting from an SQL table",
+    "chapter": "9. Storing and Retrieving Data from Cloud storage",
     "section": "",
     "video.length": ,
     "time.comsuming": ,
     "lecturer.name.first": "Start-Tech Academy",
     "register.time": "",
     "tag": [
-      "etl","pdi","kettle","extract","input","sql"
+      "etl","pdi","kettle","extract","input","cloud","storage"
     ],
     "video.link": "",
     "description": ""
