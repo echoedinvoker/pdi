@@ -1,16 +1,16 @@
 {
     "category-v2.single.toJob": "pdi",
-    "git.link": "",
+    "git.link": "https://github.com/echoedinvoker/pdi/blob/master/9-store-n-retrieve-from-cloud-storage/26-read-from-s3/memo.md",
     "course": "Pentaho for ETL & Data Integration Masterclass 2023 - PDI 9",
     "chapter": "9. Storing and Retrieving Data from Cloud storage",
-    "section": "",
-    "video.length": ,
+    "section": "26. Reading data from AWS S3",
+    "video.length": 8,
     "time.comsuming": ,
     "lecturer.name.first": "Start-Tech Academy",
-    "register.time": "",
+    "register.time": "2023-02-05T12:59:27Z",
     "tag": [
-      "etl","pdi","kettle","extract","input","cloud","storage"
+      "etl","pdi","kettle","extract","input","cloud","storage","s3","kettle","property","path","error","connect","hadoop","preview","qa","format"
     ],
-    "video.link": "",
-    "description": ""
+    "video.link": "https://www.udemy.com/course/pentaho-for-etl-data-integration-masterclass/learn/lecture/21192194#content",
+    "description": ["Explain how to use PDI to get data from a CSV file in AWS S3", "I have encountered some unsolved problems, using another component to acheive the task."]
   }
