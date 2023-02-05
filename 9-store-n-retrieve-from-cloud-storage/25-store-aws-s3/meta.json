@@ -1,16 +1,16 @@
 {
     "category-v2.single.toJob": "pdi",
-    "git.link": "",
+    "git.link": "https://github.com/echoedinvoker/pdi/blob/master/9-store-n-retrieve-from-cloud-storage/25-store-aws-s3/memo.md",
     "course": "Pentaho for ETL & Data Integration Masterclass 2023 - PDI 9",
     "chapter": "9. Storing and Retrieving Data from Cloud storage",
-    "section": "",
-    "video.length": ,
-    "time.comsuming": ,
+    "section": "25. Storing Data on AWS S3",
+    "video.length": 6,
+    "time.comsuming": 56,
     "lecturer.name.first": "Start-Tech Academy",
-    "register.time": "",
+    "register.time": "2023-02-05T09:12:56Z",
     "tag": [
-      "etl","pdi","kettle","extract","input","cloud","storage"
+      "etl","pdi","kettle","extract","input","cloud","storage","aws","access","key","bucket","upload"
     ],
-    "video.link": "",
-    "description": ""
+    "video.link": "https://www.udemy.com/course/pentaho-for-etl-data-integration-masterclass/learn/lecture/21192016#content",
+    "description": "Explain how to create a storage space on AWS, upload CSV file to it, and get the access keys that PDI will need afterwards."
   }
