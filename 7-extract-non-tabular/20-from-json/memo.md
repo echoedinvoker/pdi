@@ -1,20 +1,22 @@
-## **Data source: JSON** 
+## **Data source: JSON**
 
 ![Alt json](pic/01.jpg)
 
-## **Component: JSON Input** 
+## **Component: JSON Input**
 
 ![Alt 'JSON input'](pic/02.jpg)
 
-### *Field settings* 
+### _Field settings_
 
 ![Alt fields setting](pic/03.jpg)
 
-**Path** 
+**Path**
 
 ![Alt path](pic/04.jpg)
 
-### *Preview* 
+- the "Path" column is the point.
+
+### _Preview_
 
 ![Alt preview](pic/05.jpg)
 
