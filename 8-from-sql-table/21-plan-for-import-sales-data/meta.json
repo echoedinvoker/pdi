@@ -1,0 +1,16 @@
+{
+    "category-v2.single.toJob": "pdi",
+    "git.link": "https://github.com/echoedinvoker/pdi/blob/master/8-from-sql-table/21-plan-for-import-sales-data/memo.md",
+    "course": "Pentaho for ETL & Data Integration Masterclass 2023 - PDI 9",
+    "chapter": "8. Extracting from an SQL table",
+    "section": "21. Plan for importing sales data",
+    "video.length": 3,
+    "time.comsuming": 13,
+    "lecturer.name.first": "Start-Tech Academy",
+    "register.time": "2023-02-05T04:01:44Z",
+    "tag": [
+      "etl","pdi","kettle","extract","input","sql","plan","aws","csv"
+    ],
+    "video.link": "https://www.udemy.com/course/pentaho-for-etl-data-integration-masterclass/learn/lecture/21221420#content",
+    "description": "Explain what you want to do in this chapter."
+  }
