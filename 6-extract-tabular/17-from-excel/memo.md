@@ -32,14 +32,14 @@
 
 ![Alt fields tab](pic/06.jpg)
 
-![Alt fieds tab modified](pic/07.jpg)
+![Alt fields tab modified](pic/07.jpg)
 
 ## ** .0 **
 ![Alt preview: .0](pic/08.jpg)
 
 - This is because Age and Postal Code in Excel are number type
 
-  - number in Excel has one pricision digit.
+  - number in Excel has one precision digit.
 
 ![Alt format](pic/09.jpg)
 
