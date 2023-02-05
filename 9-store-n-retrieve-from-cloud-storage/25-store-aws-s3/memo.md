@@ -34,6 +34,24 @@
 
 ![Alt continue with root](pic/09.jpg)
 
+- This is not an AWS course, so we won't discuss it, just focus on getting the bucket up.
+
 **Done it & save keys**
 
 ![Alt got two keys and save them](pic/10.jpg)
+
+## **Upload CSV file to the bucket** 
+
+**Choose bucket** 
+
+![Alt](pic/11.jpg)
+
+**Upload CSV file** 
+
+![Alt](pic/12.jpg)
+
+![Alt](pic/13.jpg)
+
+**Done & Confirm**
+
+![Alt](pic/14.jpg)
