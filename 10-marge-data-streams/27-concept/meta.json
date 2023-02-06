@@ -1,16 +1,16 @@
 {
     "category-v2.single.toJob": "pdi",
-    "git.link": "",
+    "git.link": "https://github.com/echoedinvoker/pdi/blob/master/10-marge-data-streams/27-concept/memo.md",
     "course": "Pentaho for ETL & Data Integration Masterclass 2023 - PDI 9",
     "chapter": "10. Merging Data Stream",
-    "section": "",
-    "video.length": ,
-    "time.comsuming": ,
+    "section": "27. Concepts: Merging Data Stream",
+    "video.length": 8,
+    "time.comsuming": 38,
     "lecturer.name.first": "Start-Tech Academy",
-    "register.time": "",
+    "register.time": "2023-02-05T21:59:09Z",
     "tag": [
-      "etl","pdi","kettle","merge","stream"
+      "etl","pdi","kettle","merge","stream","concept","sort","duplicate","append"
     ],
     "video.link": "",
-    "description": ""
+    "description": ["Explain why we prefer to use specialized steps to merge data streams","Explain the logic of the two specialized merge steps, and the problems that arise after merging"]
   }
