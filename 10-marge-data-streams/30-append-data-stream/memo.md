@@ -1,10 +1,10 @@
-## **Metadata modify** 
+## **Metadata compare/modify**
 
-### *compare with previews instead of metadata* 
+### _compare with previews instead of metadata_
 
 ![Alt compare previews](pic/01.jpg)
 
-### *power of 'Select values'*
+### _power of 'Select values'_
 
 ![Alt select values for sql](pic/02.jpg)
 
@@ -12,11 +12,11 @@
 
 ## **Trap Detector and \<binary-string\> problem**
 
-### *Trap detector*
+### _Trap detector_
 
 ![Alt trap detector](pic/04.jpg)
 
-### *QA solution*
+### _QA solution_
 
 ![Alt QA solution](pic/05.jpg)
 
