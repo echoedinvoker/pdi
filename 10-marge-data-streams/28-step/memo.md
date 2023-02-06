@@ -1,6 +1,10 @@
 ## **Compare metadata** 
 
+### *Trap Detector from 'Sorted merge'*
+
 ![Alt trap detector](pic/01.jpg)
+
+### *Compare metadata on our own*
 
 ![Alt compare metadata](pic/02.jpg)
 
@@ -15,6 +19,10 @@
 ![Alt sorted merge](pic/05.jpg)
 
 ![Alt alert](pic/06.jpg)
+
+- The reason for the alert is related to the logic of sorted merge mentioned in the previous lecture.
+
+  - It is important to sort separately before sorted merging.
 
 ## **Deduplicate after merging**
 
