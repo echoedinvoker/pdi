@@ -14,6 +14,8 @@
 
 ### _Trap detector_
 
+> There are some small differences between metadata that must be observed using the trap detector.
+
 ![Alt trap detector](pic/04.jpg)
 
 ### _QA solution_
