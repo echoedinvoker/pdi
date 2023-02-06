@@ -1,6 +1,6 @@
 ## **What is data cleansing?** 
 
-[Alt what](pic/02.jpg)
+![Alt what](pic/02.jpg)
 
 - We have done some cleansing in the data extraction part, but we can still make some minor modifications to improve the data quality.
 
@@ -8,6 +8,6 @@
 
 ## **Upcoming Examples of this Chapter**
 
-[Alt upcoming examples](pic/01.jpg)
+![Alt upcoming examples](pic/01.jpg)
 
 - The first point is somewhat similar to the third point, but the third point is a human input error, so it is not possible to use the mapping method to handle it, only fuzzy matching can be used.
