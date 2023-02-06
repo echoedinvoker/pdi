@@ -1,16 +1,16 @@
 {
     "category-v2.single.toJob": "pdi",
-    "git.link": "",
+    "git.link": "https://github.com/echoedinvoker/pdi/blob/master/11-data-cleaning/31-intro/memo.md",
     "course": "Pentaho for ETL & Data Integration Masterclass 2023 - PDI 9",
     "chapter": "11. Data Cleaning",
-    "section": "",
-    "video.length": ,
-    "time.comsuming": ,
+    "section": "31. Introduction to Data Cleansing",
+    "video.length": 7,
+    "time.comsuming": 28,
     "lecturer.name.first": "Start-Tech Academy",
-    "register.time": "",
+    "register.time": "2023-02-06T22:51:30Z",
     "tag": [
-      "etl","pdi","kettle","clean"
+      "etl","pdi","kettle","clean","concept","intro"
     ],
-    "video.link": "",
-    "description": ""
+    "video.link": "https://www.udemy.com/course/pentaho-for-etl-data-integration-masterclass/learn/lecture/21351618#content",
+    "description": "Introduce what is data cleansing, and explain what examples will be done in this chapter."
   }
