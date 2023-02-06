@@ -1,16 +1,16 @@
 {
     "category-v2.single.toJob": "pdi",
-    "git.link": "",
+    "git.link": "https://github.com/echoedinvoker/pdi/blob/master/10-marge-data-streams/29-merge-product-data/memo.md",
     "course": "Pentaho for ETL & Data Integration Masterclass 2023 - PDI 9",
     "chapter": "10. Merging Data Stream",
-    "section": "",
-    "video.length": ,
-    "time.comsuming": ,
+    "section": "29. Merging product data",
+    "video.length": 11,
+    "time.comsuming": 70,
     "lecturer.name.first": "Start-Tech Academy",
-    "register.time": "",
+    "register.time": "2023-02-06T02:55:26Z",
     "tag": [
-      "etl","pdi","kettle","merge","stream"
+      "etl","pdi","kettle","merge","stream","json","xml","order","select","variable"
     ],
-    "video.link": "",
-    "description": ""
+    "video.link": "https://www.udemy.com/course/pentaho-for-etl-data-integration-masterclass/learn/lecture/21598320#content",
+    "description": "Explain how to merg data from XML and JSON inputs, with emphasis on solving the problem of different fields order."
   }
