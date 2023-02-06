@@ -10,8 +10,6 @@
 
 ## **Work afterward is almost the same**
 
-![Alt afterward](pic/04.jpg)
-
 ![Alt step afterward and preview](pic/05.jpg)
 
 ## **Analyze process details by 'Step metrics'**
