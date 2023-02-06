@@ -1,16 +1,16 @@
 {
     "category-v2.single.toJob": "pdi",
-    "git.link": "",
+    "git.link": "https://github.com/echoedinvoker/pdi/blob/master/10-marge-data-streams/30-append-data-stream/memo.md",
     "course": "Pentaho for ETL & Data Integration Masterclass 2023 - PDI 9",
     "chapter": "10. Merging Data Stream",
-    "section": "",
-    "video.length": ,
-    "time.comsuming": ,
+    "section": "30. Append data stream - merging sales data",
+    "video.length": 16,
+    "time.comsuming": 98,
     "lecturer.name.first": "Start-Tech Academy",
-    "register.time": "",
+    "register.time": "2023-02-06T22:10:50Z",
     "tag": [
-      "etl","pdi","kettle","merge","stream"
+      "etl","pdi","kettle","merge","stream","append","binary","error","qa","select","sort","unique","s3","aws","sql","table"
     ],
-    "video.link": "",
-    "description": ""
+    "video.link": "https://www.udemy.com/course/pentaho-for-etl-data-integration-masterclass/learn/lecture/21598348#content",
+    "description": ["Synthesize data from SQL and Cloud using append.", "The data from S3 will have <binary-string> issues for each field type."]
   }
