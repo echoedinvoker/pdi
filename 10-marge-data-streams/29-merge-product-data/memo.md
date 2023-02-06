@@ -1,6 +1,6 @@
 ## **Compare metadata directly** 
 
-![Alt compare metadata](pic/02.jpg)
+![Alt compare metadata](pic/01.jpg)
 
 ## **Powerful Component: Select values**
 
