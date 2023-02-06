@@ -1,16 +1,16 @@
 {
     "category-v2.single.toJob": "pdi",
-    "git.link": "",
+    "git.link": "https://github.com/echoedinvoker/pdi/blob/master/10-marge-data-streams/28-step/memo.md",
     "course": "Pentaho for ETL & Data Integration Masterclass 2023 - PDI 9",
     "chapter": "10. Merging Data Stream",
-    "section": "",
-    "video.length": ,
-    "time.comsuming": ,
+    "section": "28. Sorted Merge Step - Mergin customer data",
+    "video.length": 20,
+    "time.comsuming": 101,
     "lecturer.name.first": "Start-Tech Academy",
-    "register.time": "",
+    "register.time": "2023-02-06T00:42:33Z",
     "tag": [
-      "etl","pdi","kettle","merge","stream"
+      "etl","pdi","kettle","merge","stream","sort","tabular","compare","metadata","unique","duplicate","trap","detector"
     ],
-    "video.link": "",
-    "description": ""
+    "video.link": "https://www.udemy.com/course/pentaho-for-etl-data-integration-masterclass/learn/lecture/21222590#content",
+    "description": "Explain the process of merging tabular data, which requires sorting and deduplicate."
   }
