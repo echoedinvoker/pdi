@@ -26,8 +26,12 @@
 
 ## **Append merge**
 
+> Because there is almost no overlap between the primary keys of the two data, it doesn't make sense to use Sorted merge to compare row by row, so we choose to make one method merge.
+
 ![Alt append merge](pic/07.jpg)
 
 ## **Sort and Deduplicate**
+
+> Note that the position of 'Sort rows' is different from the previous lecture.
 
 ![Alt sort unique](pic/08.jpg)
