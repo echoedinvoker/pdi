@@ -1,16 +1,16 @@
 {
     "category-v2.single.toJob": "pdi",
-    "git.link": "",
+    "git.link": "https://github.com/echoedinvoker/pdi/blob/master/11-data-cleaning/33-replace-in-string/memo.md",
     "course": "Pentaho for ETL & Data Integration Masterclass 2023 - PDI 9",
     "chapter": "11. Data Cleaning",
-    "section": "",
-    "video.length": ,
-    "time.comsuming": ,
+    "section": "33. Replace in String Step",
+    "video.length": 6,
+    "time.comsuming": 40,
     "lecturer.name.first": "Start-Tech Academy",
-    "register.time": "",
+    "register.time": "2023-02-07T01:24:48Z",
     "tag": [
-      "etl","pdi","kettle","clean"
+      "etl","pdi","kettle","clean","replace","regex","string","transform","remove","symbol"
     ],
-    "video.link": "",
-    "description": ""
+    "video.link": "https://www.udemy.com/course/pentaho-for-etl-data-integration-masterclass/learn/lecture/21351664#content",
+    "description": "Explain what to do if there are unwanted characters or symbols in the string type field that need to be deleted."
   }
