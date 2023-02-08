@@ -1,16 +1,16 @@
 {
     "category-v2.single.toJob": "pdi",
-    "git.link": "",
+    "git.link": "https://github.com/echoedinvoker/pdi/blob/master/11-data-cleaning/37-formula-step/memo.md",
     "course": "Pentaho for ETL & Data Integration Masterclass 2023 - PDI 9",
     "chapter": "11. Data Cleaning",
-    "section": "",
-    "video.length": ,
-    "time.comsuming": ,
+    "section": "37. Formula Step and changing data format",
+    "video.length": 10,
+    "time.comsuming": 120,
     "lecturer.name.first": "Start-Tech Academy",
-    "register.time": "",
+    "register.time": "2023-02-08T07:18:36Z",
     "tag": [
-      "etl","pdi","kettle","clean"
+      "etl","pdi","kettle","clean","formula","calculate","date","format"
     ],
-    "video.link": "",
-    "description": ""
+    "video.link": "https://www.udemy.com/course/pentaho-for-etl-data-integration-masterclass/learn/lecture/21351728#content",
+    "description": "Explains how to convert decimal points to percentages, and convert date formats."
   }
