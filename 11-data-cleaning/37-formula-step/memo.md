@@ -20,6 +20,8 @@
 
 ### _Select values_
 
+> Simply use 'Select values' to modify the metadata format of the data type field and you're done!
+
 ![Alt select values](pic/06.jpg)
 
 ![Alt preview](pic/07.jpg)
