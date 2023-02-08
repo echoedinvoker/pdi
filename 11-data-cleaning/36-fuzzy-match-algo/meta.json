@@ -1,16 +1,16 @@
 {
     "category-v2.single.toJob": "pdi",
-    "git.link": "",
+    "git.link": "https://github.com/echoedinvoker/pdi/blob/master/11-data-cleaning/36-fuzzy-match-algo/memo.md",
     "course": "Pentaho for ETL & Data Integration Masterclass 2023 - PDI 9",
     "chapter": "11. Data Cleaning",
-    "section": "",
-    "video.length": ,
-    "time.comsuming": ,
+    "section": "36. Fuzzy Match Algorithms",
+    "video.length": 9,
+    "time.comsuming": 22,
     "lecturer.name.first": "Start-Tech Academy",
-    "register.time": "",
+    "register.time": "2023-02-08T00:24:53Z",
     "tag": [
-      "etl","pdi","kettle","clean"
+      "etl","pdi","kettle","clean","concept","fuzzy","match","algorithm","sound"
     ],
-    "video.link": "",
-    "description": ""
+    "video.link": "https://www.udemy.com/course/pentaho-for-etl-data-integration-masterclass/learn/lecture/35141742#content",
+    "description": "Explain the various algorithms available for Fuzzy match."
   }
