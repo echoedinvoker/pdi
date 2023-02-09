@@ -526,6 +526,11 @@
       <to>Filter rows</to>
       <enabled>Y</enabled>
     </hop>
+    <hop>
+      <from>Filter rows</from>
+      <to>Sorted merge 2</to>
+      <enabled>Y</enabled>
+    </hop>
   </order>
   <step>
     <name>Fuzzy match</name>
@@ -2154,7 +2159,7 @@
       <method>none</method>
       <schema_name/>
     </partitioning>
-    <send_true_to/>
+    <send_true_to>Sorted merge 2</send_true_to>
     <send_false_to/>
     <compare>
       <condition>
@@ -2184,6 +2189,37 @@
     <GUI>
       <xloc>896</xloc>
       <yloc>432</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Sorted merge 2</name>
+    <type>SortedMerge</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <fields>
+      <field>
+        <name>Customer ID</name>
+        <ascending>Y</ascending>
+      </field>
+    </fields>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>896</xloc>
+      <yloc>560</yloc>
       <draw>Y</draw>
     </GUI>
   </step>

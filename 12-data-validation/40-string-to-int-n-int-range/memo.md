@@ -18,4 +18,6 @@
 
 ## **What's the next step**
 
+> In the subsequent lecture, we will collect the excluded data for processing and merge them back into the main stream, so the next step of 'Filter rows' should be 'Sorted merge'.
+
 ![Alt merge excluded data with main stream](pic/07.jpg)
