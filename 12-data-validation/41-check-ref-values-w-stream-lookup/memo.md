@@ -8,9 +8,17 @@
 
 ## **Lookup: Stream lookup**
 
+**Prepare**
+
 ![Alt rename to dff](pic/03.jpg)
 
+- In fact, there is no need to rename, because the name brought in the 'Field' option of the 'Stream lookup' will be taken from the mainstream Field by default if there are duplicates field names.
+
+**Stream lookup**
+
 ![Alt stream lookup](pic/04.jpg)
+
+- The seventh step is very important, we must take a field from the lookup table and use it to determine whether it matches or not, instead of just using the reference field to determine.
 
 ![Alt preview 10000](pic/05.jpg)
 
