@@ -1,16 +1,16 @@
 {
     "category-v2.single.toJob": "pdi",
-    "git.link": "",
+    "git.link": "https://github.com/echoedinvoker/pdi/blob/master/12-data-validation/39-intro/memo.md",
     "course": "Pentaho for ETL & Data Integration Masterclass 2023 - PDI 9",
     "chapter": "12. Data Validation",
-    "section": "",
-    "video.length": ,
-    "time.comsuming": ,
+    "section": "39. Introduction to Data validation",
+    "video.length": 5,
+    "time.comsuming": 30,
     "lecturer.name.first": "Start-Tech Academy",
-    "register.time": "",
+    "register.time": "2023-02-08T12:08:01Z",
     "tag": [
-      "etl","pdi","kettle","validation"
+      "etl","pdi","kettle","validation","concept","intro","erro"
     ],
-    "video.link": "",
-    "description": ""
+    "video.link": "https://www.udemy.com/course/pentaho-for-etl-data-integration-masterclass/learn/lecture/21351748#content",
+    "description": "Explain the difference between data validation and cleansing, and explain that a row that does not pass it will become an error row, and what can be done about it"
   }
