@@ -1,16 +1,16 @@
 {
     "category-v2.single.toJob": "pdi",
-    "git.link": "",
+    "git.link": "https://github.com/echoedinvoker/pdi/blob/master/15-sql/51-intro/memo.md",
     "course": "Pentaho for ETL & Data Integration Masterclass 2023 - PDI 9",
     "chapter": "15. PDI SQL Connection",
-    "section": "",
-    "video.length": ,
-    "time.comsuming": ,
+    "section": "51. Introduction to PDI - SQL connection",
+    "video.length": 6,
+    "time.comsuming": 47,
     "lecturer.name.first": "Start-Tech Academy",
-    "register.time": "",
+    "register.time": "2023-02-10T22:42:15Z",
     "tag": [
-      "etl","pdi","kettle","sql"
+      "etl","pdi","kettle","sql","scratch","table","sql","pgadmin","create","insert","prepare"
     ],
-    "video.link": "",
-    "description": ""
+    "video.link": "https://www.udemy.com/course/pentaho-for-etl-data-integration-masterclass/learn/lecture/21537110#content",
+    "description": "Create a table with a little data in the database from scratch, and plan the operations to be performed on this table through PDI in the lectures later."
   }
