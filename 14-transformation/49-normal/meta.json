@@ -1,16 +1,16 @@
 {
     "category-v2.single.toJob": "pdi",
-    "git.link": "",
+    "git.link": "https://github.com/echoedinvoker/pdi/blob/master/14-transformation/49-normal/memo.md",
     "course": "Pentaho for ETL & Data Integration Masterclass 2023 - PDI 9",
     "chapter": "14. Transformation and Analytics steps",
-    "section": "",
-    "video.length": ,
-    "time.comsuming": ,
+    "section": "49. Normalization and Denormalization",
+    "video.length": 7,
+    "time.comsuming": 42,
     "lecturer.name.first": "Start-Tech Academy",
-    "register.time": "",
+    "register.time": "2023-02-10T03:45:04Z",
     "tag": [
       "etl","pdi","kettle","transformation","analytics"
     ],
-    "video.link": "",
-    "description": ""
+    "video.link": "https://www.udemy.com/course/pentaho-for-etl-data-integration-masterclass/learn/lecture/21351900#content",
+    "description": "Explain what is normalizing, and how to do normalize and denormalize"
   }
