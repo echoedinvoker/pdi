@@ -6,7 +6,11 @@
 
 ![Alt add 'Table input' in new ktb](pic/03.jpg)
 
+- As you can see above, in general Database connections are only used in the same Transformation.
+
 ## **Share Database Connections**
+
+> But we can actually share Database connections to other Transformations in a very simple method, as follows.
 
 ![Alt share database connection](pic/04.jpg)
 
