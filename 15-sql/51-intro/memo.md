@@ -1,5 +1,7 @@
 ## **Prepare: Create a table with some data in database**
 
+> Create a table with a little data from scratch to prepare for the subsequent lecture.
+
 ### _PGAdmin SQL script editor_
 
 ![Alt script editor of pgadmin](pic/01.jpg)
