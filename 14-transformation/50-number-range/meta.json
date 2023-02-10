@@ -1,16 +1,16 @@
 {
     "category-v2.single.toJob": "pdi",
-    "git.link": "",
+    "git.link": "https://github.com/echoedinvoker/pdi/blob/master/14-transformation/50-number-range/memo.md",
     "course": "Pentaho for ETL & Data Integration Masterclass 2023 - PDI 9",
     "chapter": "14. Transformation and Analytics steps",
-    "section": "",
-    "video.length": ,
-    "time.comsuming": ,
+    "section": "50. Number Range Step",
+    "video.length": 5,
+    "time.comsuming": 42,
     "lecturer.name.first": "Start-Tech Academy",
-    "register.time": "",
+    "register.time": "2023-02-10T21:43:03Z",
     "tag": [
-      "etl","pdi","kettle","transformation","analytics"
+      "etl","pdi","kettle","transformation","analytics","range","number","value","groupby","group","bound"
     ],
-    "video.link": "",
-    "description": ""
+    "video.link": "https://www.udemy.com/course/pentaho-for-etl-data-integration-masterclass/learn/lecture/21351904#content",
+    "description": "Explain how to convert numeric fields into categories and perform group analysis."
   }
