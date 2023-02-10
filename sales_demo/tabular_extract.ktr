@@ -572,6 +572,16 @@
       <to>Sort rows 6</to>
       <enabled>Y</enabled>
     </hop>
+    <hop>
+      <from>Sort rows 6</from>
+      <to>Row denormaliser</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Row denormaliser</from>
+      <to>Row normaliser</to>
+      <enabled>Y</enabled>
+    </hop>
   </order>
   <step>
     <name>Calculator</name>
@@ -856,6 +866,51 @@
     <GUI>
       <xloc>64</xloc>
       <yloc>32</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Memory group by</name>
+    <type>MemoryGroupBy</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <give_back_row>N</give_back_row>
+    <group>
+      <field>
+        <name>State</name>
+      </field>
+      <field>
+        <name>City</name>
+      </field>
+      <field>
+        <name>Segment</name>
+      </field>
+    </group>
+    <fields>
+      <field>
+        <aggregate>number of customer</aggregate>
+        <subject>Customer ID</subject>
+        <type>COUNT_DISTINCT</type>
+        <valuefield/>
+      </field>
+    </fields>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>896</xloc>
+      <yloc>656</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -1458,39 +1513,30 @@
     <fields>
       <field>
         <name>Customer ID</name>
-        <rename/>
       </field>
       <field>
         <name>Customer Name</name>
-        <rename/>
       </field>
       <field>
         <name>Segment</name>
-        <rename/>
       </field>
       <field>
         <name>Age</name>
-        <rename/>
       </field>
       <field>
         <name>Country</name>
-        <rename/>
       </field>
       <field>
         <name>City</name>
-        <rename/>
       </field>
       <field>
         <name>State</name>
-        <rename/>
       </field>
       <field>
         <name>Postal Code</name>
-        <rename/>
       </field>
       <field>
         <name>Region</name>
-        <rename/>
       </field>
       <select_unspecified>N</select_unspecified>
     </fields>
@@ -1861,6 +1907,64 @@
     <GUI>
       <xloc>208</xloc>
       <yloc>416</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Sort rows 6</name>
+    <type>SortRows</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <directory>%%java.io.tmpdir%%</directory>
+    <prefix>out</prefix>
+    <sort_size>1000000</sort_size>
+    <free_memory/>
+    <compress>N</compress>
+    <compress_variable/>
+    <unique_rows>N</unique_rows>
+    <fields>
+      <field>
+        <name>State</name>
+        <ascending>Y</ascending>
+        <case_sensitive>N</case_sensitive>
+        <collator_enabled>N</collator_enabled>
+        <collator_strength>0</collator_strength>
+        <presorted>N</presorted>
+      </field>
+      <field>
+        <name>City</name>
+        <ascending>Y</ascending>
+        <case_sensitive>N</case_sensitive>
+        <collator_enabled>N</collator_enabled>
+        <collator_strength>0</collator_strength>
+        <presorted>N</presorted>
+      </field>
+      <field>
+        <name>Segment</name>
+        <ascending>Y</ascending>
+        <case_sensitive>N</case_sensitive>
+        <collator_enabled>N</collator_enabled>
+        <collator_strength>0</collator_strength>
+        <presorted>N</presorted>
+      </field>
+    </fields>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>784</xloc>
+      <yloc>656</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -2454,8 +2558,8 @@
     </GUI>
   </step>
   <step>
-    <name>Memory group by</name>
-    <type>MemoryGroupBy</type>
+    <name>Row denormaliser</name>
+    <type>Denormaliser</type>
     <description/>
     <distribute>Y</distribute>
     <custom_distribution/>
@@ -2464,7 +2568,7 @@
       <method>none</method>
       <schema_name/>
     </partitioning>
-    <give_back_row>N</give_back_row>
+    <key_field>Segment</key_field>
     <group>
       <field>
         <name>State</name>
@@ -2472,16 +2576,49 @@
       <field>
         <name>City</name>
       </field>
-      <field>
-        <name>Segment</name>
-      </field>
     </group>
     <fields>
       <field>
-        <aggregate>count of segment</aggregate>
-        <subject>Customer ID</subject>
-        <type>COUNT_DISTINCT</type>
-        <valuefield/>
+        <field_name>number of customer</field_name>
+        <key_value>Consumer</key_value>
+        <target_name>Consumer</target_name>
+        <target_type>Integer</target_type>
+        <target_format/>
+        <target_length>-1</target_length>
+        <target_precision>-1</target_precision>
+        <target_decimal_symbol/>
+        <target_grouping_symbol/>
+        <target_currency_symbol/>
+        <target_null_string/>
+        <target_aggregation_type>-</target_aggregation_type>
+      </field>
+      <field>
+        <field_name>number of customer</field_name>
+        <key_value>Corporate</key_value>
+        <target_name>Corporate</target_name>
+        <target_type>Integer</target_type>
+        <target_format/>
+        <target_length>-1</target_length>
+        <target_precision>-1</target_precision>
+        <target_decimal_symbol/>
+        <target_grouping_symbol/>
+        <target_currency_symbol/>
+        <target_null_string/>
+        <target_aggregation_type>-</target_aggregation_type>
+      </field>
+      <field>
+        <field_name>number of customer</field_name>
+        <key_value>Home Office</key_value>
+        <target_name>Home Office</target_name>
+        <target_type>Integer</target_type>
+        <target_format/>
+        <target_length>-1</target_length>
+        <target_precision>-1</target_precision>
+        <target_decimal_symbol/>
+        <target_grouping_symbol/>
+        <target_currency_symbol/>
+        <target_null_string/>
+        <target_aggregation_type>-</target_aggregation_type>
       </field>
     </fields>
     <attributes/>
@@ -2493,14 +2630,14 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>896</xloc>
+      <xloc>672</xloc>
       <yloc>656</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
   <step>
-    <name>Sort rows 6</name>
-    <type>SortRows</type>
+    <name>Row normaliser</name>
+    <type>Normaliser</type>
     <description/>
     <distribute>Y</distribute>
     <custom_distribution/>
@@ -2509,37 +2646,22 @@
       <method>none</method>
       <schema_name/>
     </partitioning>
-    <directory>%%java.io.tmpdir%%</directory>
-    <prefix>out</prefix>
-    <sort_size>1000000</sort_size>
-    <free_memory/>
-    <compress>N</compress>
-    <compress_variable/>
-    <unique_rows>N</unique_rows>
+    <typefield>segment</typefield>
     <fields>
       <field>
-        <name>State</name>
-        <ascending>Y</ascending>
-        <case_sensitive>N</case_sensitive>
-        <collator_enabled>N</collator_enabled>
-        <collator_strength>0</collator_strength>
-        <presorted>N</presorted>
+        <name>Consumer</name>
+        <value>Consumer</value>
+        <norm>number of customer</norm>
       </field>
       <field>
-        <name>City</name>
-        <ascending>Y</ascending>
-        <case_sensitive>N</case_sensitive>
-        <collator_enabled>N</collator_enabled>
-        <collator_strength>0</collator_strength>
-        <presorted>N</presorted>
+        <name>Corporate</name>
+        <value>Corporate</value>
+        <norm>number of customer</norm>
       </field>
       <field>
-        <name>Segment</name>
-        <ascending>Y</ascending>
-        <case_sensitive>N</case_sensitive>
-        <collator_enabled>N</collator_enabled>
-        <collator_strength>0</collator_strength>
-        <presorted>N</presorted>
+        <name>Home Office</name>
+        <value>Home Office</value>
+        <norm>number of customer</norm>
       </field>
     </fields>
     <attributes/>
@@ -2551,7 +2673,7 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>784</xloc>
+      <xloc>544</xloc>
       <yloc>656</yloc>
       <draw>Y</draw>
     </GUI>

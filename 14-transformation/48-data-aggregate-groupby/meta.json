@@ -1,16 +1,16 @@
 {
     "category-v2.single.toJob": "pdi",
-    "git.link": "",
+    "git.link": "https://github.com/echoedinvoker/pdi/blob/master/14-transformation/48-data-aggregate-groupby/memo.md",
     "course": "Pentaho for ETL & Data Integration Masterclass 2023 - PDI 9",
     "chapter": "14. Transformation and Analytics steps",
-    "section": "",
-    "video.length": ,
-    "time.comsuming": ,
+    "section": "48. Data Aggregation using Group-by",
+    "video.length": 9,
+    "time.comsuming": 51,
     "lecturer.name.first": "Start-Tech Academy",
-    "register.time": "",
+    "register.time": "2023-02-10T02:14:01Z",
     "tag": [
-      "etl","pdi","kettle","transformation","analytics"
+      "etl","pdi","kettle","transformation","analytics","groupby","group","aggregate"
     ],
-    "video.link": "",
-    "description": ""
+    "video.link": "https://www.udemy.com/course/pentaho-for-etl-data-integration-masterclass/learn/lecture/21351898#content",
+    "description": "Use the 'Memory group by' step to aggregate data to get more information from the table."
   }
