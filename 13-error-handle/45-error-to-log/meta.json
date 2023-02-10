@@ -1,16 +1,16 @@
 {
     "category-v2.single.toJob": "pdi",
-    "git.link": "",
+    "git.link": "https://github.com/echoedinvoker/pdi/blob/master/13-error-handle/45-error-to-log/memo.md",
     "course": "Pentaho for ETL & Data Integration Masterclass 2023 - PDI 9",
     "chapter": "13. Error Handling",
-    "section": "",
-    "video.length": ,
-    "time.comsuming": ,
+    "section": "45. Writing the errors to the log",
+    "video.length": 4,
+    "time.comsuming": 17,
     "lecturer.name.first": "Start-Tech Academy",
-    "register.time": "",
+    "register.time": "2023-02-09T23:29:53Z",
     "tag": [
-      "etl","pdi","kettle","error","handle"
+      "etl","pdi","kettle","error","handle","log"
     ],
-    "video.link": "",
-    "description": ""
+    "video.link": "https://www.udemy.com/course/pentaho-for-etl-data-integration-masterclass/learn/lecture/21351850#content",
+    "description": "Describe how to print out error or false data into the LOG."
   }
