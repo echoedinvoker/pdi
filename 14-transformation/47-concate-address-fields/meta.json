@@ -1,16 +1,16 @@
 {
     "category-v2.single.toJob": "pdi",
-    "git.link": "",
+    "git.link": "https://github.com/echoedinvoker/pdi/blob/master/14-transformation/47-concate-address-fields/memo.md",
     "course": "Pentaho for ETL & Data Integration Masterclass 2023 - PDI 9",
     "chapter": "14. Transformation and Analytics steps",
-    "section": "",
-    "video.length": ,
-    "time.comsuming": ,
+    "section": "47. Concatenating Address Fields",
+    "video.length": 6,
+    "time.comsuming": 25,
     "lecturer.name.first": "Start-Tech Academy",
-    "register.time": "",
+    "register.time": "2023-02-10T01:14:21Z",
     "tag": [
-      "etl","pdi","kettle","transformation","analytics"
+      "etl","pdi","kettle","transformation","analytics","combine","concat","address"
     ],
-    "video.link": "",
-    "description": ""
+    "video.link": "https://www.udemy.com/course/pentaho-for-etl-data-integration-masterclass/learn/lecture/21351896#contents",
+    "description": "Explains how to combine the strings of multiple fields into a new field."
   }
