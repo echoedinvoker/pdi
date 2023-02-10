@@ -1,16 +1,16 @@
 {
     "category-v2.single.toJob": "pdi",
-    "git.link": "",
+    "git.link": "https://github.com/echoedinvoker/pdi/blob/master/13-error-handle/46-errror-to-file/memo.md",
     "course": "Pentaho for ETL & Data Integration Masterclass 2023 - PDI 9",
     "chapter": "13. Error Handling",
-    "section": "",
-    "video.length": ,
-    "time.comsuming": ,
+    "section": "46. Writing the errors to the log",
+    "video.length": 6,
+    "time.comsuming": 37,
     "lecturer.name.first": "Start-Tech Academy",
-    "register.time": "",
+    "register.time": "2023-02-10T00:38:43Z",
     "tag": [
-      "etl","pdi","kettle","error","handle"
+      "etl","pdi","kettle","error","handle","file","excel","export"
     ],
-    "video.link": "",
-    "description": ""
+    "video.link": "https://www.udemy.com/course/pentaho-for-etl-data-integration-masterclass/learn/lecture/21351842#content",
+    "description": "Explain how to export exceptions to an external file."
   }
