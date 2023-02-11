@@ -436,6 +436,25 @@
   </info>
   <notepads>
   </notepads>
+  <connection>
+    <name>salesDBconnection</name>
+    <server>localhost</server>
+    <type>POSTGRESQL</type>
+    <access>Native</access>
+    <database>postgres</database>
+    <port>5432</port>
+    <username>postgres</username>
+    <password>Encrypted 2be98afc86aa7f2e4bb16bd64d980aac9</password>
+    <servername/>
+    <data_tablespace/>
+    <index_tablespace/>
+    <attributes>
+      <attribute>
+        <code>PORT_NUMBER</code>
+        <attribute>5432</attribute>
+      </attribute>
+    </attributes>
+  </connection>
   <order>
     <hop>
       <from>Manually input</from>
@@ -564,12 +583,12 @@
     </hop>
     <hop>
       <from>Sorted merge 2</from>
-      <to>Number range</to>
+      <to>Combination lookup/update</to>
       <enabled>Y</enabled>
     </hop>
     <hop>
-      <from>Number range</from>
-      <to>Memory group by</to>
+      <from>Combination lookup/update</from>
+      <to>Update</to>
       <enabled>Y</enabled>
     </hop>
   </order>
@@ -856,45 +875,6 @@
     <GUI>
       <xloc>64</xloc>
       <yloc>32</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>Memory group by</name>
-    <type>MemoryGroupBy</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name/>
-    </partitioning>
-    <give_back_row>N</give_back_row>
-    <group>
-      <field>
-        <name>Age Category</name>
-      </field>
-    </group>
-    <fields>
-      <field>
-        <aggregate>number of customer</aggregate>
-        <subject>Customer ID</subject>
-        <type>COUNT_DISTINCT</type>
-        <valuefield/>
-      </field>
-    </fields>
-    <attributes/>
-    <cluster_schema/>
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>784</xloc>
-      <yloc>672</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -1402,51 +1382,6 @@
     <GUI>
       <xloc>64</xloc>
       <yloc>224</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>Number range</name>
-    <type>NumberRange</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name/>
-    </partitioning>
-    <inputField>Age</inputField>
-    <outputField>Age Category</outputField>
-    <fallBackValue>unknown</fallBackValue>
-    <rules>
-      <rule>
-        <lower_bound>0.0</lower_bound>
-        <upper_bound>35.0</upper_bound>
-        <value>Yong</value>
-      </rule>
-      <rule>
-        <lower_bound>35.0</lower_bound>
-        <upper_bound>60.0</upper_bound>
-        <value>Middle-Age</value>
-      </rule>
-      <rule>
-        <lower_bound>60.0</lower_bound>
-        <upper_bound>1.7976931348623157E308</upper_bound>
-        <value>Senior-Age</value>
-      </rule>
-    </rules>
-    <attributes/>
-    <cluster_schema/>
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>896</xloc>
-      <yloc>672</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -2525,6 +2460,126 @@
     <GUI>
       <xloc>64</xloc>
       <yloc>416</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Combination lookup/update</name>
+    <type>CombinationLookup</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <schema>public</schema>
+    <table>custormer</table>
+    <connection>salesDBconnection</connection>
+    <commit>1</commit>
+    <cache_size>9999</cache_size>
+    <replace>N</replace>
+    <preloadCache>N</preloadCache>
+    <crc>N</crc>
+    <crcfield>hashcode</crcfield>
+    <fields>
+      <key>
+        <name>Customer ID</name>
+        <lookup>custormer_id</lookup>
+      </key>
+      <return>
+        <name>surr_id</name>
+        <creation_method>tablemax</creation_method>
+        <use_autoinc>N</use_autoinc>
+      </return>
+    </fields>
+    <sequence/>
+    <last_update_field/>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>896</xloc>
+      <yloc>672</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Update</name>
+    <type>Update</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <connection>salesDBconnection</connection>
+    <skip_lookup>N</skip_lookup>
+    <commit>1</commit>
+    <use_batch>N</use_batch>
+    <error_ignored>N</error_ignored>
+    <ignore_flag_field/>
+    <lookup>
+      <schema>public</schema>
+      <table>custormer</table>
+      <key>
+        <name>Customer ID</name>
+        <field>custormer_id</field>
+        <condition>=</condition>
+        <name2/>
+      </key>
+      <value>
+        <name>customer_name</name>
+        <rename>Customer Name</rename>
+      </value>
+      <value>
+        <name>segment</name>
+        <rename>Segment</rename>
+      </value>
+      <value>
+        <name>age</name>
+        <rename>Age</rename>
+      </value>
+      <value>
+        <name>country</name>
+        <rename>Country</rename>
+      </value>
+      <value>
+        <name>city</name>
+        <rename>City</rename>
+      </value>
+      <value>
+        <name>state_name</name>
+        <rename>State</rename>
+      </value>
+      <value>
+        <name>postal_code</name>
+        <rename>Postal Code</rename>
+      </value>
+      <value>
+        <name>region</name>
+        <rename>Region</rename>
+      </value>
+    </lookup>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>896</xloc>
+      <yloc>784</yloc>
       <draw>Y</draw>
     </GUI>
   </step>

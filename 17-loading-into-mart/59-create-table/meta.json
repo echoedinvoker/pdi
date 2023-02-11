@@ -1,16 +1,16 @@
 {
     "category-v2.single.toJob": "pdi",
-    "git.link": "",
+    "git.link": "https://github.com/echoedinvoker/pdi/blob/master/17-loading-into-mart/59-create-table/memo.md",
     "course": "Pentaho for ETL & Data Integration Masterclass 2023 - PDI 9",
     "chapter": "17. Loading the data into a Data Mart",
-    "section": "",
-    "video.length": ,
-    "time.comsuming": ,
+    "section": "59. Creating tables in DB",
+    "video.length": 8,
+    "time.comsuming": 53,
     "lecturer.name.first": "Start-Tech Academy",
-    "register.time": "",
+    "register.time": "2023-02-11T06:12:49Z",
     "tag": [
-      "etl","pdi","kettle","load","mart"
+      "etl","pdi","kettle","load","mart","create","table","sql","script"
     ],
-    "video.link": "",
-    "description": ""
+    "video.link": "https://www.udemy.com/course/pentaho-for-etl-data-integration-masterclass/learn/lecture/21593926#content",
+    "description": "Use SQL script in the database to create the corresponding three tables mock data mart."
   }
