@@ -5,3 +5,5 @@
 ## **Example**
 
 ![Alt example](pic/02.jpg)
+
+- It sounds like the business key in all tables other than this one (regardless of fact or dimension) will be replaced by the surrogate key, but I'm not sure.
