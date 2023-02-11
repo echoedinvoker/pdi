@@ -489,6 +489,11 @@
         <rename>marks</rename>
         <update>Y</update>
       </value>
+      <value>
+        <name>name</name>
+        <rename>name</rename>
+        <update>N</update>
+      </value>
     </lookup>
     <attributes/>
     <cluster_schema/>
