@@ -17,3 +17,5 @@
 ## **Execute & Check the result**
 
 ![Alt check result](pic/04.jpg)
+
+- Compared to Type 1 SCD, Type 2 SCD only requires one step, but the setup is more complicated.
