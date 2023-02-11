@@ -20,6 +20,10 @@
 
 ## **Output: Table output**
 
+> In this case we assume that each sales data is always new and there will be no need to update it, so we use this step.
+
+> If in your own case, the fact table loading also needs to be updated, you should use a combination or dimension step depending on your needs.
+
 ![Alt table output](pic/05.jpg)
 
 ![Alt modify fields settings of table output](pic/06.jpg)
