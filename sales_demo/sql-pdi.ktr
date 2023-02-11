@@ -457,13 +457,13 @@
   <order>
     <hop>
       <from>Data grid</from>
-      <to>Insert / update</to>
+      <to>Delete</to>
       <enabled>Y</enabled>
     </hop>
   </order>
   <step>
-    <name>Insert / update</name>
-    <type>InsertUpdate</type>
+    <name>Delete</name>
+    <type>Delete</type>
     <description/>
     <distribute>Y</distribute>
     <custom_distribution/>
@@ -474,26 +474,15 @@
     </partitioning>
     <connection>salesDBconnection</connection>
     <commit>1</commit>
-    <update_bypassed>N</update_bypassed>
     <lookup>
       <schema>public</schema>
       <table>science_class</table>
       <key>
-        <name>name</name>
-        <field>name</field>
-        <condition>LIKE</condition>
+        <name>marks</name>
+        <field>science_marks</field>
+        <condition>=</condition>
         <name2/>
       </key>
-      <value>
-        <name>science_marks</name>
-        <rename>marks</rename>
-        <update>Y</update>
-      </value>
-      <value>
-        <name>name</name>
-        <rename>name</rename>
-        <update>N</update>
-      </value>
     </lookup>
     <attributes/>
     <cluster_schema/>
@@ -504,8 +493,8 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>336</xloc>
-      <yloc>144</yloc>
+      <xloc>240</xloc>
+      <yloc>96</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -522,30 +511,6 @@
     </partitioning>
     <fields>
       <field>
-        <name>enrollment</name>
-        <type>Integer</type>
-        <format/>
-        <currency/>
-        <decimal/>
-        <group/>
-        <length>-1</length>
-        <precision>-1</precision>
-        <set_empty_string>N</set_empty_string>
-        <field_null_if/>
-      </field>
-      <field>
-        <name>name</name>
-        <type>String</type>
-        <format/>
-        <currency/>
-        <decimal/>
-        <group/>
-        <length>-1</length>
-        <precision>-1</precision>
-        <set_empty_string>N</set_empty_string>
-        <field_null_if/>
-      </field>
-      <field>
         <name>marks</name>
         <type>Integer</type>
         <format/>
@@ -560,13 +525,6 @@
     </fields>
     <data>
       <line>
-        <item/>
-        <item>Popeye</item>
-        <item>45</item>
-      </line>
-      <line>
-        <item/>
-        <item>Wendy</item>
         <item>99</item>
       </line>
     </data>
@@ -579,8 +537,8 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>144</xloc>
-      <yloc>144</yloc>
+      <xloc>112</xloc>
+      <yloc>96</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
