@@ -1,5 +1,9 @@
 ## **Over views**
 
+> Usually used in Transformation process, but even if you don't know how to coding at all, you can use step to complete the Transformation process, so the lecturer didn't explain it in depth here.
+
+> So the following notes are more of my own research, not come from the lecture.
+
 ![Alt all script related steps](pic/01.jpg)
 
 ## **Create input data for test**
@@ -10,7 +14,7 @@
 
 ## **Javascript step**
 
-### _Normal usage (row by row)_
+### _Normal usage (row by row, process independently)_
 
 ![Alt javascript step normal process](pic/04.jpg)
 
