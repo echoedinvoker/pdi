@@ -28,6 +28,8 @@
 
 ## **Other ways to set variable**
 
+> It is good to know, and not recommended to use.
+
 ![Alt other places to set variable](pic/05.jpg)
 
 - 'kettle.properties' is the file that will be generated when you run Spoon.bat for the first time, which has many predefined environment variables, and you can add them from here.

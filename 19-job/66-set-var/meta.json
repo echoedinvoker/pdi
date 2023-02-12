@@ -1,16 +1,16 @@
 {
     "category-v2.single.toJob": "pdi",
-    "git.link": "",
+    "git.link": "https://github.com/echoedinvoker/pdi/blob/master/19-job/66-set-var/memo.md",
     "course": "Pentaho for ETL & Data Integration Masterclass 2023 - PDI 9",
     "chapter": "19. PDI Jobs",
-    "section": "",
-    "video.length": ,
-    "time.comsuming": ,
+    "section": "66. Setting variable using set variables step",
+    "video.length": 8,
+    "time.comsuming": 41,
     "lecturer.name.first": "Start-Tech Academy",
-    "register.time": "",
+    "register.time": "2023-02-12T02:55:56Z",
     "tag": [
-      "etl","pdi","kettle","job"
+      "etl","pdi","kettle","job","variable","properties","dynamic","read","step","scope"
     ],
-    "video.link": "",
-    "description": ""
+    "video.link": "https://www.udemy.com/course/pentaho-for-etl-data-integration-masterclass/learn/lecture/21593952#content",
+    "description": "Explain a better practice to set variables."
   }
