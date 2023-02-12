@@ -1,16 +1,16 @@
 {
     "category-v2.single.toJob": "pdi",
-    "git.link": "",
+    "git.link": "https://github.com/echoedinvoker/pdi/blob/master/19-job/68-send-email/memo.md",
     "course": "Pentaho for ETL & Data Integration Masterclass 2023 - PDI 9",
     "chapter": "19. PDI Jobs",
-    "section": "",
-    "video.length": ,
-    "time.comsuming": ,
+    "section": "68. Sending Email Step",
+    "video.length": 10,
+    "time.comsuming": 45,
     "lecturer.name.first": "Start-Tech Academy",
-    "register.time": "",
+    "register.time": "2023-02-12T04:56:43Z",
     "tag": [
-      "etl","pdi","kettle","job"
+      "etl","pdi","kettle","job","mail","send","attach"
     ],
-    "video.link": "",
-    "description": ""
+    "video.link": "https://www.udemy.com/course/pentaho-for-etl-data-integration-masterclass/learn/lecture/35141748#content",
+    "description": "Explains how to use Job to send letters with files attached."
   }
