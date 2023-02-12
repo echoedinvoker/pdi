@@ -10,7 +10,11 @@
 
 ![Alt fields are fine](pic/04.jpg)
 
+### _Flow: Dummy_
+
 ![Alt dummy](pic/05.jpg)
+
+- Our main processing will be in the main/template Transformation, where step 'Dummy' is used instead of those processes.
 
 ## **Metadata Injection Transformation**
 
@@ -30,11 +34,17 @@
 
 ### _Flow: ETL metadata injection_
 
+**tab 'Inject Metadata'**
+
 ![Alt elt metadata injection](pic/10.jpg)
 
 ![Alt setting read sheet from top-left](pic/11.jpg)
 
+**Main or Template?**
+
 ![Alt option tab: key to main/template](pic/12.jpg)
+
+**Other settings of tab 'options'**
 
 ![Alt other setting of options tab](pic/13.jpg)
 
