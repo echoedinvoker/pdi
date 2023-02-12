@@ -1,16 +1,16 @@
 {
     "category-v2.single.toJob": "pdi",
-    "git.link": "",
+    "git.link": "https://github.com/echoedinvoker/pdi/blob/master/19-job/67-file-n-folder-manage/memo.md",
     "course": "Pentaho for ETL & Data Integration Masterclass 2023 - PDI 9",
     "chapter": "19. PDI Jobs",
-    "section": "",
-    "video.length": ,
-    "time.comsuming": ,
+    "section": "67. File and Folder Management",
+    "video.length": 7,
+    "time.comsuming": 56,
     "lecturer.name.first": "Start-Tech Academy",
-    "register.time": "",
+    "register.time": "2023-02-12T04:00:46Z",
     "tag": [
-      "etl","pdi","kettle","job"
+      "etl","pdi","kettle","job","file","manage","condition","folder","variable","move","exist"
     ],
-    "video.link": "",
-    "description": ""
+    "video.link": "https://www.udemy.com/course/pentaho-for-etl-data-integration-masterclass/learn/lecture/21593954#content",
+    "description": "Use a practical example to illustrate how to use file/folder management and condition determination."
   }
