@@ -1,16 +1,16 @@
 {
     "category-v2.single.toJob": "pdi",
-    "git.link": "",
+    "git.link": "https://github.com/echoedinvoker/pdi/blob/master/20-scheduling-for-product/70-command-to-run/memo.md",
     "course": "Pentaho for ETL & Data Integration Masterclass 2023 - PDI 9",
-    "chapter": "19. PDI Jobs",
-    "section": "",
-    "video.length": ,
-    "time.comsuming": ,
+    "chapter": "20. Scheduling a job for production environment",
+    "section": "70. Running using command prompt and scheduling",
+    "video.length": 7,
+    "time.comsuming": 40,
     "lecturer.name.first": "Start-Tech Academy",
-    "register.time": "",
+    "register.time": "2023-02-12T06:35:06Z",
     "tag": [
-      "etl","pdi","kettle","job"
+      "etl","pdi","kettle","job","crontab","schedule","terminal","command","kitchen","pan"
     ],
-    "video.link": "",
-    "description": ""
+    "video.link": "https://www.udemy.com/course/pentaho-for-etl-data-integration-masterclass/learn/lecture/21594004#content",
+    "description": "Describe how to schedule the execution of a Job or Transformation in a production environment."
   }
