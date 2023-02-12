@@ -1,16 +1,16 @@
 {
     "category-v2.single.toJob": "pdi",
-    "git.link": "",
+    "git.link": "https://github.com/echoedinvoker/pdi/blob/master/18-java-n-javascript/63-script/memo.md",
     "course": "Pentaho for ETL & Data Integration Masterclass 2023 - PDI 9",
     "chapter": "18. Running Java and JavaScript",
-    "section": "",
-    "video.length": ,
-    "time.comsuming": ,
+    "section": "63. Scripting Steps",
+    "video.length": 7,
+    "time.comsuming": 147,
     "lecturer.name.first": "Start-Tech Academy",
-    "register.time": "",
+    "register.time": "2023-02-12T00:05:37Z",
     "tag": [
-      "etl","pdi","kettle","script"
+      "etl","pdi","kettle","script","java","javascript","expression","transformation"
     ],
-    "video.link": "",
-    "description": ""
+    "video.link": "https://www.udemy.com/course/pentaho-for-etl-data-integration-masterclass/learn/lecture/21593986#content",
+    "description": "Explain how to use the various script-related steps, and what role they play in ETL."
   }
