@@ -1,16 +1,16 @@
 {
     "category-v2.single.toJob": "pdi",
-    "git.link": "",
+    "git.link": "https://github.com/echoedinvoker/pdi/blob/master/19-job/64-job-vs-transformation/memo.md",
     "course": "Pentaho for ETL & Data Integration Masterclass 2023 - PDI 9",
     "chapter": "19. PDI Jobs",
-    "section": "",
-    "video.length": ,
-    "time.comsuming": ,
+    "section": "64. PDI Jobs vs Transformation",
+    "video.length": 3,
+    "time.comsuming": 10,
     "lecturer.name.first": "Start-Tech Academy",
-    "register.time": "",
+    "register.time": "2023-02-12T01:16:30Z",
     "tag": [
-      "etl","pdi","kettle","job"
+      "etl","pdi","kettle","job","concept","compare","versus","order","parrelled"
     ],
-    "video.link": "",
-    "description": ""
+    "video.link": "https://www.udemy.com/course/pentaho-for-etl-data-integration-masterclass/learn/lecture/21593946#content",
+    "description": "Explain the difference between Job and Transformation."
   }
